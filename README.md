@@ -12,13 +12,14 @@ Assurez-vous d'avoir les éléments suivants installés et configurés sur votre
 
 Python: La version 3.x est recommandée. DBeaver: Un gestionnaire de base de données qui sera utilisé pour exécuter des requêtes SQL et vérifier les résultats.
 
-Création d'un Trigger
+Création d'un Trigger 
 Un trigger est un mécanisme qui se déclenche automatiquement lorsqu'une action (comme l'insertion de données) est effectuée sur une table. Objectif: Suivre les étapes ci-dessous pour créer un trigger qui enregistre l'intégrateur lors de l'insertion de codes INSEE.
 
-Création d'une Vue
+Création d'une Vue 'villes_nord_pas_de_calais'
 Une vue est une représentation virtuelle des données extraites d'une ou plusieurs tables. Objectif: Créer une vue qui affiche les villes du Nord Pas de Calais (codes postaux commençant par 59 et 62).
 
-Récupération des Informations de Population
+
+Récupération des Informations de Population 'recuperationINSEE.py'
 Dans cette étape, nous allons utiliser une API gouvernementale pour obtenir des informations de population à partir des codes INSEE.
 
 Objectif: Utilisez le script Python recuperationINSEE.py fourni pour récupérer les informations de population depuis l'API Geo.
